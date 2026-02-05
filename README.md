@@ -17,9 +17,9 @@ Instead of manual browsing, this tool extracts data and applies keyword-based fi
 
 ### 🛠️ Tech Stack
 - **Language:** Python 3.x
-- **Libraries:** - `Requests`: For HTTP handling.
-  - `BeautifulSoup4`: For DOM parsing and data extraction.
-  - `Pytest`: For automated unit testing.
+- **Libraries:** - `Requests`: HTTP handling.
+  - `BeautifulSoup4`: DOM parsing and data extraction.
+  - `Pytest`: automated unit testing.
 
 ---
 
@@ -57,5 +57,7 @@ python src/scraper.py
 To run the automated test suite and ensure everything is working correct
 ```
 
+```
 📫 Contact
 Developed by [Marcelo Miranda](https://www.google.com/search?q=https://www.linkedin.com/in/marcelomiranda/)
+```
