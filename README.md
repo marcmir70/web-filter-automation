@@ -40,7 +40,7 @@ web-filter-automation/
 ### ⚙️ How to Run
 1. **Clone the repo:**
 ```bash
-git clone [https://github.com/marcmir70/web-filter-automation.git](https://github.com/marcmir70/web-filter-automation.git)
+git clone https://github.com/marcmir70/web-filter-automation.git
 ```
 
 2.Install dependencies:
