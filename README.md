@@ -60,5 +60,5 @@ pytest tests/
 ```
 
 📫 Contact
-Developed by [Marcelo Miranda](https://www.google.com/search?q=https://www.linkedin.com/in/marcelomiranda/)
+Developed by [Marcelo Miranda](https://www.linkedin.com/in/marcelomiranda/)
 ```
