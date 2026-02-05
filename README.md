@@ -55,9 +55,10 @@ python src/scraper.py
 
 🧪 Quality Assurance
 To run the automated test suite and ensure everything is working correct
+```bash
+pytest tests/
 ```
 
-```
 📫 Contact
 Developed by [Marcelo Miranda](https://www.google.com/search?q=https://www.linkedin.com/in/marcelomiranda/)
 ```
