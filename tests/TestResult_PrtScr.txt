@@ -1,0 +1,10 @@
+(venv) marcmir70@ub:~/web-filter-automation$ python3 -m pytest tests/test_scraper.py 
+============================================ test session starts =============================================
+platform linux -- Python 3.12.3, pytest-8.0.0, pluggy-1.6.0
+rootdir: /home/marcmir70/web-filter-automation
+collected 2 items                                                                                            
+
+tests/test_scraper.py ..                                                                               [100%]
+
+============================================= 2 passed in 0.81s ==============================================
+(venv) marcmir70@ub:~/web-filter-automation
