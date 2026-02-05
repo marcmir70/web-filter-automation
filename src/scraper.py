@@ -51,15 +51,19 @@ if __name__ == "__main__":
         sys.exit(errno.EPERM)    # code 1 ; not permitted operation ## sys.exit(1)
         sys.exit(errno.EPERM)    # code 1 ; not permitted operation
 
-    if not is_valid_url(sys.argv[1]):
-        help()
-        print('Informed URL must be valid')
-        sys.exit(errno.EINVAL)   # code 2 ; invalid argument
-
     url = sys.argv[1]
     terms = sys.argv[2:]
-    print (f' \nInto URL: \n {url}')
-    print (f'...looking for these terms: {terms} \n')
+    is_ok, msg = is_valid_url(url)
+    if not is_ok:
+        help()
+        print('Informed URL must be valid')
+        print(f"[Error] {msg}")
+        sys.exit(errno.EINVAL)   # code 2 ; invalid argument
+    else:
+        print(f"[Ok] {msg}")
+
+    print (f' \nLooking into URL: {url} ...')
+    print (f'...for these terms: {terms} \n')
     for keyword in terms:
         print(f' \nLooking for news about: \'{keyword}\'...')
         news = get_python_news(url, keyword)
